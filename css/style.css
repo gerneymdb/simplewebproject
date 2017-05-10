@@ -1,1 +1,54 @@
 /*this is my css*/
+.header {
+    border-bottom: 3px dashed black;
+    background: pink;
+    width: 100%;
+    float: left;
+
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.clearfix:before, .clearfix.after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header h3 {
+    text-align: center;
+}
+
+.article {
+    border: 1px solid black;
+    float: left;
+}
+
+.article div {
+    padding: 24px;
+    float: left;
+    width: 30.1%;
+}
+
+.article .first-coloumn {
+    background: cadetblue;
+    margin-right: 20px;
+}
+
+.article .second-coloumn {
+    background: bisque;
+    margin-right: 20px;
+}
+
+.article .third-coloumn {
+    background: aqua;
+}
+
+.footer {
+    border: 1px solid black;
+    width: 100%;
+    display: block;
+    float: left;
+    background: gainsboro;
+    margin: 20px 0 0 0;
+}
